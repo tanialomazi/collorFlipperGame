@@ -1,0 +1,78 @@
+﻿body {
+    font-family: Calibri;
+}
+
+header {
+    text-align: center;
+    background-color: floralwhite;
+    font-size: 30px;
+    padding: 10px;
+}
+
+main {
+    background-color: lightblue;
+    height: 575px;
+    box-shadow: inset 0px 15px 9px -10px rgb(128 128 128 / 50%);
+}
+
+.title-box {
+    width: 100%;
+    padding: 8% 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 70px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.6);
+    color: black;
+    font-weight: bold;
+    font-family: Calibri;
+    font-size: 32px;
+    border-radius: 5px;
+    width: 20%;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,0.9);
+}
+
+.ct-box {
+    display: grid;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 70px;
+    margin: 6% 10% 0 0;
+}
+
+.ct {
+    text-align: center;
+}
+
+#ct{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+#ct-leg {
+    font-weight:bold;
+}
